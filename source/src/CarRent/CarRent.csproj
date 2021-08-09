@@ -9,9 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CarManagement\Domain\" />
-    <Folder Include="CarManagement\Application\" />
-    <Folder Include="CarManagement\Infrastructure\" />
     <Folder Include="Common\" />
     <Folder Include="ReservationManagement\Application\" />
     <Folder Include="ReservationManagement\Domain\" />

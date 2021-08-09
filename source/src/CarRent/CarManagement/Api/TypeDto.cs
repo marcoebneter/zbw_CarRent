@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.AccessControl;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 
 namespace CarRent.CarManagement.Api
 {
-    public class CarDto
+    public class TypeDto
     {
         public int id { get; set; }
-        public ClassDto carClass { get; set; }
-        public BrandDto carBrand { get; set; }
-        public TypeDto carType { get; set; }
+        public string name { get; set; }
     }
 }
