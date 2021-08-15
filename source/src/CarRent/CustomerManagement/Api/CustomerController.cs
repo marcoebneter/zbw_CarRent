@@ -3,6 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
+using CarRent.Common.Infrastructure.Mapper;
+using CarRent.CustomerManagement.Application;
+using CarRent.CustomerManagement.Domain;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,36 +16,50 @@ namespace CarRent.CustomerManagement.Api
     [ApiController]
     public class CustomerController : ControllerBase
     {
+        private readonly ICustomerService _service;
+        private readonly IMapper _mapper;
+
+        public CustomerController(ICustomerService service, IMapper mapper)
+        {
+            _service = service;
+            _mapper = mapper;
+        }
+
         // GET: api/<CustomerController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<CustomerDto> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _service.GetAll().Select(entity => _mapper.Map<CustomerDto>(entity)).ToList();
         }
 
         // GET api/<CustomerController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public List<CustomerDto> Get(Guid id)
         {
-            return "value";
+            return _service.GetById(id).Select(entity => _mapper.Map<CustomerDto>(entity)).ToList();
         }
 
         // POST api/<CustomerController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] CustomerDto entity)
         {
+            _service.Update(_mapper.Map<Customer>(entity));
         }
 
         // PUT api/<CustomerController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(Guid id, [FromBody] CustomerDto entity)
         {
+            var c = _mapper.Map<Customer>(entity);
+            c.id = id;
+            _service.Update(c);
         }
 
         // DELETE api/<CustomerController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public void Delete(Guid id)
         {
+            _service.RemoveById(id);
         }
     }
 }

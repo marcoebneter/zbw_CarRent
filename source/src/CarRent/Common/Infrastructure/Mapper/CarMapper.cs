@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AutoMapper;
+﻿using AutoMapper;
 using CarRent.CarManagement.Api;
 using CarRent.CarManagement.Domain;
 
-namespace CarRent.Common.Infrastructure
+namespace CarRent.Common.Infrastructure.Mapper
 {
     public class CarMapper : Profile
     {

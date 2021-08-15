@@ -12,9 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CustomerManagement\Application\" />
-    <Folder Include="CustomerManagement\Domain\" />
-    <Folder Include="CustomerManagement\Infrastructure\" />
     <Folder Include="ReservationManagement\Application\" />
     <Folder Include="ReservationManagement\Domain\" />
     <Folder Include="ReservationManagement\Infrastructure\" />
