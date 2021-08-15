@@ -7,9 +7,11 @@ namespace CarRent.CarManagement.Api
 {
     public class CarDto
     {
-        public int id { get; set; }
-        public ClassDto carClass { get; set; }
-        public BrandDto carBrand { get; set; }
-        public TypeDto carType { get; set; }
+        public Guid id { get; set; }
+        public Guid carClassId { get; set; }
+        public string carBrand { get; set; }
+        public string carType { get; set; }
+        public string carClass { get; set; }
+        public decimal carPriceDay { get; set; }
     }
 }

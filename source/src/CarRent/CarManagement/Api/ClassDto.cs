@@ -7,8 +7,8 @@ namespace CarRent.CarManagement.Api
 {
     public class ClassDto
     {
-        public int id { get; set; }
+        public Guid id { get; set; }
         public string name { get; set; }
-        public int dailyFee { get; set; }
+        public decimal dailyFee { get; set; }
     }
 }
