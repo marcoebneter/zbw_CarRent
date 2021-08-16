@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Linq.Expressions;
 using CarRent.CarManagement.Domain;
 using CarRent.CustomerManagement.Domain;
 using CarRent.ReservationManagement.Domain;
@@ -17,6 +15,11 @@ namespace CarRent.Common.Infrastructure.Context
         public DbSet<Plz> Plzs { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
 
+        public CarRentDbContext(DbContextOptions<CarRentDbContext> options) : base(options)
+        {
+
+        }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             ConfigureModelBinding<Car, Guid>(modelBuilder);
@@ -24,6 +27,8 @@ namespace CarRent.Common.Infrastructure.Context
             ConfigureModelBinding<Customer, Guid>(modelBuilder);
             ConfigureModelBinding<Plz, Guid>(modelBuilder);
             ConfigureModelBinding<Reservation, Guid>(modelBuilder);
+
+            new TestData(modelBuilder);
         }
     }
 }

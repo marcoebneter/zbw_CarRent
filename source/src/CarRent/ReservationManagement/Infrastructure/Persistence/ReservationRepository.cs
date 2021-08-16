@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
-using System.Threading.Tasks;
 using CarRent.Common.Infrastructure.Context;
 using CarRent.Common.Interfaces;
 using CarRent.ReservationManagement.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarRent.ReservationManagement.Infrastructure.Persistence
 {

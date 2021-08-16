@@ -28,7 +28,7 @@ namespace CarRent.CustomerManagement.Api
         [HttpGet]
         public List<PlzCodeDto> Get()
         {
-            return _service.GetAll().Select(enity => _mapper.Map<PlzCodeDto>(enity)).ToList();
+            return _service.GetAll().Select(entity => _mapper.Map<PlzCodeDto>(entity)).ToList();
         }
 
         // GET api/<PlzController>/5

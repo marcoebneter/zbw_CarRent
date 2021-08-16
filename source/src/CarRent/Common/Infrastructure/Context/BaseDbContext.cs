@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using CarRent.Common.Interfaces;
+﻿using CarRent.Common.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarRent.Common.Infrastructure.Context
@@ -14,7 +10,7 @@ namespace CarRent.Common.Infrastructure.Context
 
         }
 
-        protected BaseDbContext(DbContextOptions options) : base(options)
+        protected BaseDbContext(DbContextOptions<CarRentDbContext> options) : base(options)
         {
 
         }
