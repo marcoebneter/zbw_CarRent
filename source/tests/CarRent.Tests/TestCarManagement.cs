@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using AutoMapper;
+using CarRent.CarManagement.Api;
 using CarRent.CarManagement.Application;
 using CarRent.CarManagement.Domain;
 using CarRent.Common.Infrastructure.Mapper;
@@ -63,6 +64,7 @@ namespace CarRent.Tests
             _mapper = new Mapper(new MapperConfiguration(conf => conf.AddProfile(typeof(CarMapper))));
             _repoMock = new Mock<IRepository<Car, Guid>>();
             _repoMock.Setup(x => x.GetAll()).Returns(_cars);
+            _repoMock.Setup(x => x.Insert(It.IsAny<Car>()));
             _service = new CarService(_repoMock.Object);
         }
 
@@ -74,6 +76,23 @@ namespace CarRent.Tests
             var result = controller.Get();
 
             result.Should().NotBeEmpty().And.BeEquivalentTo(_cars, o => o.ExcludingMissingMembers());
+        }
+
+        [Fact]
+        public void TestAdd()
+        {
+            var controller = new CarController(_service, _mapper);
+
+            var newCar = new CarDto()
+            {
+                id = new Guid(),
+                carBrand = "Subaru",
+                carClassId = _mittel.id,
+                carType = "Limousine"
+            };
+
+            controller.Post(newCar);
+            _repoMock.Verify(x => x.Insert(It.IsAny<Car>()));
         }
     }
 }
