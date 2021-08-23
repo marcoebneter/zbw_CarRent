@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CarRent.CarManagement.Api.CarClassController" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAABAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CarManagement\Api\CarClassController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CarManagement.Api.CarDto" Collapsed="true">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAEAAAAAAAAgA=</HashCode>
+      <FileName>CarManagement\Api\CarDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CarManagement.Api.ClassDto" Collapsed="true">
+    <Position X="8.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAEAAgA=</HashCode>
+      <FileName>CarManagement\Api\ClassDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Controllers.CarController" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAABAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CarManagement\Api\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CarManagement.Application.CarService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAQAAAAAAAAAAAAAACEAAAAAAgACAAAAAIA=</HashCode>
+      <FileName>CarManagement\Application\CarService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CarManagement.Application.ClassService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAABAAAAAAAAAAAAAACEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CarManagement\Application\ClassService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CarManagement.Domain.Car" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAEAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>CarManagement\Domain\Car.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CarManagement.Domain.Class" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAgA=</HashCode>
+      <FileName>CarManagement\Domain\Class.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CarManagement.Infrastructure.Persistence.CarRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CarManagement\Infrastructure\Persistence\CarRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CarManagement.Infrastructure.Persistence.ClassRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CarManagement\Infrastructure\Persistence\ClassRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.Common.Infrastructure.Context.BaseDbContext" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Common\Infrastructure\Context\BaseDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Common.Infrastructure.Context.CarRentDbContext" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAACAAEAAAAAEAAAAAAAEAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Common\Infrastructure\Context\CarRentDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Common.Infrastructure.Mapper.CarMapper" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Infrastructure\Mapper\CarMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Common.Infrastructure.Mapper.CustomerMapper" Collapsed="true">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Common\Infrastructure\Mapper\CustomerMapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Api.CustomerController" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAABAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CustomerManagement\Api\CustomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Api.CustomerDto" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAhAAAAAAAAACAAAAAAAAgACAAAAQAAAAgA=</HashCode>
+      <FileName>CustomerManagement\Api\CustomerDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Api.PlzCodeDto" Collapsed="true">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAQAAAAgA=</HashCode>
+      <FileName>CustomerManagement\Api\PlzCodeDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Api.PlzController" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAABAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>CustomerManagement\Api\PlzController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Application.CustomerService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAABAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CustomerManagement\Application\CustomerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Application.PlzService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAABAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CustomerManagement\Application\PlzService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Domain.Customer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAhAAAAAAAAAAAAAAAAAAgAAAAAAQAAAAgA=</HashCode>
+      <FileName>CustomerManagement\Domain\Customer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Domain.Plz" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAQAAAAgA=</HashCode>
+      <FileName>CustomerManagement\Domain\Plz.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Infrastructure.Persistance.CustomerRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CustomerManagement\Infrastructure\Persistance\CustomerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.CustomerManagement.Infrastructure.Persistance.PlzRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>CustomerManagement\Infrastructure\Persistance\PlzRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.Migrations.init" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20210816082535_init.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Migrations.CarRentDbContextModelSnapshot" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\CarRentDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.ReservationManagement.Api.ReservationController" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABQAAABAAAACAEAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>ReservationManagement\Api\ReservationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.ReservationManagement.Api.ReservationDto" Collapsed="true">
+    <Position X="8.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAQBBAABAAAAAAAAALAAAAAAAAAAAAAAAAAQAAAAAgA=</HashCode>
+      <FileName>ReservationManagement\Api\ReservationDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.ReservationManagement.Application.ReservationService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAABAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>ReservationManagement\Application\ReservationService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.ReservationManagement.Domain.Reservation" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAADAAAAAAAgAAAAAACAAAAAABAAAAAAAEAAAgA=</HashCode>
+      <FileName>ReservationManagement\Domain\Reservation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.ReservationManagement.Infrastructure.Persistence.ReservationRepository" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>ReservationManagement\Infrastructure\Persistence\ReservationRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CarRent.Program" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarRent.Startup" Collapsed="true">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CarRent.CarManagement.Application.IClassService" Collapsed="true">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAACEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CarManagement\Application\IClassService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.CarManagement.Domain.ICarService" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAQAAAAAAAAAAAAAACEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CarManagement\Application\ICarService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.Common.Interfaces.IEntity&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\Interfaces\IEntity.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.Common.Interfaces.IRepository&lt;T, TI&gt;" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAABAAAAAABAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Common\Interfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.CustomerManagement.Application.ICustomerService" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CustomerManagement\Application\ICustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.CustomerManagement.Application.IPlzService" Collapsed="true">
+    <Position X="10" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>CustomerManagement\Application\IPlzService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CarRent.ReservationManagement.Application.IReservationService" Collapsed="true">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAAABAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>ReservationManagement\Application\IReservationService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="CarRent.CarManagement.Domain.CarClassTypes" Collapsed="true">
+    <Position X="3" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAABAA=</HashCode>
+      <FileName>CarManagement\Domain\Class.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CarRent.ReservationManagement.Domain.ReservationStatus" Collapsed="true">
+    <Position X="4.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ReservationManagement\Domain\Reservation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
