@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq.Expressions;
 using CarRent.CarManagement.Domain;
 using CarRent.CustomerManagement.Domain;
 using CarRent.ReservationManagement.Domain;
@@ -27,8 +26,6 @@ namespace CarRent.Common.Infrastructure.Context
             ConfigureModelBinding<Customer, Guid>(modelBuilder);
             ConfigureModelBinding<Plz, Guid>(modelBuilder);
             ConfigureModelBinding<Reservation, Guid>(modelBuilder);
-
-            new TestData(modelBuilder);
         }
     }
 }
